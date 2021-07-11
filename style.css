@@ -1,0 +1,52 @@
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    margin: 50px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_img{
+    height: 182px;
+    position: relative;
+    bottom: 42px;
+}
+
+.card_text{
+    margin: 10px 10px 0 0;
+    font-weight: bold;
+}
+
+.card_superhero_name{
+    font-size: 12px;
+    color: white;
+}
+
+.card_name{
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.captain_america{
+    background-image: linear-gradient(#4568DC, #B06AB3);
+}
+
+.iron_man{
+    background-image: linear-gradient(#e52d27,#b31217);
+}
+
+.black_widow{
+    background-image: linear-gradient(#000,#61045F);
+} 
+
+.spider_man{
+    background-image: linear-gradient(#e52d27,#000);
+}
